@@ -1,284 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Alfonso Piedrasanta</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desarrollador web especializado en construir sitios web escalables, robustos y de interfaz amigable" />
-    <meta name="keywords" content="javascript, vue, vuetify, react, react native, c#, ef core, .net core, desarrollador web, guatemala" />
-    <meta name=”robots” content="index, follow" />
-    <meta name="title" content="Alfonso Piedrasanta">
-    <meta name="language" content="Spanish">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Alfonso Piedrasanta">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://apiedrasanta.github.io/">
-    <meta property="og:title" content="Alfonso Piedrasanta">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <!--<meta property="twitter:url" content="https://apiedrasanta.github.io/">-->
-    <meta property="twitter:title" content="Alfonso Piedrasanta">
-    <meta property="twitter:description" content="Desarrollador web especializado en construir sitios web escalables, robustos y de interfaz amigable">
-    <!--<meta property="twitter:image" content="">-->
-    
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/milligram.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alfonso Piedrasanta | Senior Backend Engineer & Technical Lead</title>
+  <meta name="description" content="Senior Backend Engineer y Technical Lead especializado en .NET, C#, APIs, integraciones empresariales, CI/CD, Docker y SQL Server.">
+  <meta name="keywords" content=".NET, C#, ASP.NET Core, backend, APIs, CI/CD, Docker, SQL Server, Technical Lead, Guatemala">
+  <meta name="author" content="Alfonso Piedrasanta">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://apiedrasanta.github.io/">
+  <meta property="og:title" content="Alfonso Piedrasanta | Senior Backend Engineer & Technical Lead">
+  <meta property="og:description" content="Backend .NET, APIs, integraciones empresariales, CI/CD y liderazgo técnico.">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="Alfonso Piedrasanta | Senior Backend Engineer & Technical Lead">
+  <meta property="twitter:description" content="Backend .NET, APIs, integraciones empresariales, CI/CD y liderazgo técnico.">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178281632-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Inicio">AP</a>
+      <nav aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-      gtag('config', 'UA-178281632-1');
-    </script>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Backend Engineer · Technical Lead</p>
+          <h1>Construyo soluciones backend confiables para productos digitales y procesos de negocio.</h1>
+          <p class="hero-text">
+            Ingeniero de Software Senior con más de 8 años de experiencia, especializado en backend .NET,
+            diseño de APIs, integraciones empresariales y automatización del ciclo de entrega.
+          </p>
+          <div class="hero-stack" aria-label="Tecnologías principales">
+            <span>.NET</span><span>C#</span><span>ASP.NET Core</span><span>REST APIs</span><span>CI/CD</span><span>Docker</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#proyectos">Ver proyectos</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/alfonso-piedrasanta" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="button ghost" href="mailto:apiedrasantag@gmail.com">Contactar</a>
+          </div>
+        </div>
 
-  </head>
-  <body>
-    <div class="resume container">
-      <div class="row">
-        <div class="column">
-           <div class="resume__content">
-               <div class="container__resume">
-                <section class="resume__about">
-                    <div>
-                        <picture class="container__image">
-                            <img
-                                src="img/alfonso-piedrasanta-image_togqhx_c_scale,w_200.jpg"
-                                srcset="
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_200.jpg 200w,
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_580.jpg 580w,
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_864.jpg 864w,
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_1090.jpg 1090w,
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_1333.jpg 1333w,
-                                    img/alfonso-piedrasanta-image_togqhx_c_scale,w_1400.jpg 1400w"
-                                sizes="(max-width: 580px) 200px,
-                                        (max-width: 864px) 580px,
-                                        (max-width: 1090px) 864px,
-                                        (max-width: 1333px) 1090px,
-                                        1400px"
-                                alt="Descripción de la imagen">
-                        </picture>
-                        <div>
-                            <h1 class="resume__name">Alfonso Piedrasanta</h1>
-                            <h3 class="resume__job">Desarrollador Senior</h3>
-                        </div>
-                        <div class="column column-100">
-                            <p class="resume__description" >Desarrollador web con más de 5 años de experiencia en la industria del software.  Comprometido en la implementación de buenas prácticas de código y el  trabajo en equipo</p>
-                            <ul class="resume_social">
-                                <li>
-                                    <a href="https://www.facebook.com/apiedrasantag" title="Sígueme en Facebook" target="_blank" class="icon-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com/in/alfonso-piedrasanta" title="Contáctame en Linkedin" target="_blank" class="icon-linkedin2"></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:apiedrasantag@gmail.com" title="Envíame un Mail" class="icon-envelop button-contact"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section class="resume__section">
-                   <hr>
-                   <article class="resume__article">
-                       <header>
-                           <h3>EXPERIENCIA</h3>
-                       </header>
-                       <div>
-                            
-                            <div class="resume__experience">
-                                <a href="https://bofasa.com/" target="blank"><h4>BOFASA</h4></a>
-                                <p>Desarrollador Backend | Noviembre 2020 - presente</p>
-                                <p>Diseño y construcción de Web APIs REST orientadas a proveer valor a aplicaciones móviles y sitios web para clientes</p>
-                                <div>
-                                    <ul class="resume__languages">
-                                        <li>Web APIs</li>
-                                        <li>.NET</li>
-                                        <li>EF Core</li>
-                                        <li>Blazor</li>
-                                        <li>Git</li>
-                                        <li>GitFlow</li>
-                                        <li>GitLab</li>
-                                        <li>CI/CD</li>
-                                        <li>Test Unitarios y de Integración</li>
-                                        <li>SQL Server</li>
-                                    </ul>
-                                </div>
-                            </div>
+        <aside class="profile-card" aria-label="Perfil de Alfonso Piedrasanta">
+          <picture>
+            <source media="(max-width:700px)" srcset="img/alfonso-piedrasanta-image_togqhx_c_scale,w_580.jpg">
+            <img src="img/alfonso-piedrasanta-image_togqhx_c_scale,w_864.jpg" alt="Alfonso Piedrasanta">
+          </picture>
+          <div class="profile-card-copy">
+            <strong>Alfonso Piedrasanta</strong>
+            <span>Guatemala</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-                            <div class="resume__experience">
-                                <a href="http://cdag.com.gt/" target="blank"><h4>CDAG</h4></a>
-                                <p>Desarrollador Web | Septiembre 2019 - Octubre 2020</p>
-                                <p>Diseño y desarrollo de soluciones web orientadas a la atención a las Federaciones Deportivas de Guatemala</p>
-                                <div>
-                                    <ul class="resume__languages">
-                                        <li>JavaScript</li>
-                                        <li>Vue</li>
-                                        <li>Vuetify</li>
-                                        <li>Web API</li>
-                                        <li>.NET Core</li>
-                                        <li>EF Core</li>
-                                    </ul>
-                                </div>
-                            </div>
+    <section class="impact" aria-label="Resultados destacados">
+      <div class="container impact-grid">
+        <article><strong>8+ años</strong><span>desarrollando soluciones empresariales</span></article>
+        <article><strong>≈ Q1M/mes</strong><span>en ventas del canal móvil B2C</span></article>
+        <article><strong>Hasta 60%</strong><span>de reducción en tiempos de procesos críticos</span></article>
+      </div>
+    </section>
 
-                            <div class="resume__experience">
-                                <a href="https://www.mintrabajo.gob.gt/" target="_blank"><h4>MINISTERIO DE TRABAJO</h4></a>
-                                <p>Desarrollador Web | Noviembre 2018 - Julio 2019</p>
-                                <p>Contribuí a la implementación de tecnología Azure DevOps y al diseño y desarrollo de soluciones web para presentación de informes de empresas y centros recreativos del Estado</p>
-                                <div>
-                                    <ul class="resume__languages">
-                                        <li>JavaScript</li>
-                                        <li>React</li>
-                                        <li>React Materialize</li>
-                                        <li>Laravel</li>
-                                        <li>Eloquent</li>
-                                        <li>Lumen</li>
-                                    </ul>
-                                </div>
-                            </div>
+    <section class="section" id="proyectos">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Trabajo destacado</p>
+          <h2>Proyectos con impacto de negocio</h2>
+          <p>Una selección de iniciativas en las que he tenido participación técnica relevante, sin exponer información interna, endpoints ni código propietario.</p>
+        </div>
 
-                            <div class="resume__experience">
-                                <a href="http://saprosa.com/" target="_blank"><h4>SAPROSA</h4></a>
-                                <p>Desarrollador Web | Noviembre 2017 - Noviembre 2018</p>
-                                <p>Desarrollo y mantenimiento de nuevos módulos en sistema de Cervecería Florida Ice and Farm Company (FIFCO)</p>
-                                <div>
-                                    <ul class="resume__languages">
-                                        <li>JavaScript</li>
-                                        <li>Bootstrap</li>
-                                        <li>Laravel</li>
-                                        <li>Eloquent</li>
-                                    </ul>
-                                </div>
-                            </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>Aplicación móvil B2C</h3>
+            <p>Liderazgo del desarrollo backend para una plataforma de venta de productos farmacéuticos, con servicios REST para pedidos, inventario, pagos e integraciones.</p>
+            <div class="project-result">Canal digital con ventas mensuales cercanas a Q1 millón.</div>
+            <ul class="tags"><li>.NET</li><li>REST APIs</li><li>SQL Server</li><li>Integraciones</li></ul>
+          </article>
 
-                       </div>
-                   </article>
-                   <hr>
-                   <article class="resume__article">
-                       <header>
-                            <h3>EDUCACIÓN</h3>
-                        </header>
-                        <div>
-                            <div class="resume__experience">
-                                <a href="https://umgedu.org/posgrados/masi/" target="_blank"><h4>MAESTRÍA EN SEGURIDAD INFORMÁTICA</h4></a>
-                                <p>Universidad Mariano Gálvez de Guatemala | 2019 - 2020</p>
-                            </div>
-                            <div class="resume__experience">
-                                <h4>INGENIERÍA EN SISTEMAS Y CIENCIAS DE LA COMPUTACIÓN</h4>
-                                <p>Universidad Mariano Gálvez de Guatemala | 2013 - 2018</p>
-                            </div>
-                       </div>
-                   </article>
-                   <hr>
-                   <article class="resume__article">
-                       <header>
-                            <h3>CURSOS Y CERTIFICADOS</h3>
-                        </header>
-                        <div>
-                            <ul class="resume__languages">
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1882-tecnologia-gerentes/diploma/detalle/" target="_blank" rel="noopener noreferrer">Tecnología para Gerentes y Directores</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/2164-practico-backend/diploma/detalle/" target="_blank" rel="noopener noreferrer">Arquitectura Backend</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1732-eng-management/diploma/detalle/" target="_blank" rel="noopener noreferrer">Engineering Management</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1640-frontend-developer/diploma/detalle/" target="_blank" rel="noopener noreferrer">Frontend Developer</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1098-ingenieria/diploma/detalle/" target="_blank" rel="noopener noreferrer">Fundamentos de Ingeniería de Software</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1247-arquitectura-software/diploma/detalle/" target="_blank" rel="noopener noreferrer">Fundamentos de Arquitectura de Software</a></li>
-                                <li>Responsive Design</li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1229-css-grid-layout-2017/diploma/detalle/" target="_blank" rel="noopener noreferrer">CSS Grid Layout</a></li>
-                                <li>Desarrollo Web Online</li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1339-fundamentos-javascript-2018/diploma/detalle/" target="_blank" rel="noopener noreferrer">Fundamentos de JavaScript</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1557-git-github/diploma/detalle/" target="_blank" rel="noopener noreferrer">Git y Github Profesional</a></li>
-                                <li><a href="https://www.udemy.com/certificate/UC-FIGKHVWY/" target="_blank" rel="noopener noreferrer">Web APIs RESTful ASP.NET Core</a></li>
-                                <li><a href="https://www.udemy.com/certificate/UC-UJN27LZU/" target="_blank" rel="noopener noreferrer">Docker para DevOpsy Desarrolladores</a></li>
-                                <li><a href="https://www.udemy.com/certificate/UC-Q3WOLLS6/" target="_blank" rel="noopener noreferrer">React Native y Redux</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1750-scrum/diploma/detalle/" target="_blank" rel="noopener noreferrer">Scrum</a></li>
-                                <li><a href="https://platzi.com/p/alfonsopiedrasantagarcia/curso/1638-api-rest/diploma/detalle/" target="_blank" rel="noopener noreferrer">API REST</a></li>
-                            </ul>
-                       </div>
-                   </article>
-                   <hr>
-                   <article class="resume__article">
-                       <header>
-                            <h3>HABILIDADES</h3>
-                        </header>
-                        <div>
-                           <div class="resume__skills">
-                               <p>Frontend</p>
-                               <ul class="resume__languages">
-                                    <li>JavaScript</li>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Blazor</li>
-                                    <li>Bootstrap</li>
-                                    <li>React</li>
-                                    <li>React Native</li>
-                                    <li>Redux</li>
-                                    <li>Vue</li>
-                                    <li>Vuetify</li>
-                                    <li>Vuex</li>
-                                </ul>
-                           </div>
-                           <div class="resume__skills">
-                                <p>Backend</p>
-                                <ul class="resume__languages">
-                                    <li>C#</li>
-                                    <li>.NET Core</li>
-                                    <li>Entity Framework Core</li>
-                                    <li>Dapper</li>
-                                    <li>xUnit</li>
-                                    <li>SignalR</li>
-                                    <li>Laravel</li>
-                                    <li>Lumen Micro-Framework</li>
-                                    <li>Eloquent</li>
-                                    <li>NodeJS</li>
-                                    <li>ExpressJS</li>
-                                </ul>
-                           </div>
-                           <div class="resume__skills">
-                                <p>Bases de Datos</p>
-                                <ul class="resume__languages">
-                                    <li>MySQL</li>
-                                    <li>SQL Server</li>
-                                </ul>
-                           </div>
-                       </div>
-                   </article>
-                </section>
-                <hr>
-               </div>                
-                <footer class="footer">
-                    <ul class="resume_social">
-                        <li>
-                            <a href="https://www.facebook.com/apiedrasantag" target="_blank" class="icon-facebook"></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/alfonso-piedrasanta" target="_blank" class="icon-linkedin2"></a>
-                        </li>
-                        <li>
-                            <a href="mailto:apiedrasantag@gmail.com" class="icon-envelop"></a>
-                        </li>
-                    </ul>
-                    <p>
-                        <span>&copy;</span> 2020 Alfonso Piedrasanta
-                    </p>
-                </footer>
-           </div>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Plataforma de Checkout</h3>
+            <p>Solución integrada con sitios e-commerce basados en WooCommerce que digitalizó un proceso anteriormente gestionado por call center.</p>
+            <div class="project-result">Facturación, entrega o recogida, métodos de pago y validación de inventario según ubicación.</div>
+            <ul class="tags"><li>.NET</li><li>Blazor</li><li>WooCommerce</li><li>APIs</li></ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Plataforma B2B / Televentas</h3>
+            <p>Liderazgo del backend para televentas y ventas empresariales, desarrollando APIs e integraciones con servicios corporativos conectados a Oracle ERP.</p>
+            <div class="project-result">Soporte a procesos de ventas y transacciones para clientes mayoristas.</div>
+            <ul class="tags"><li>.NET</li><li>REST APIs</li><li>SQL Server</li><li>Integraciones empresariales</li></ul>
+          </article>
         </div>
       </div>
+    </section>
+
+    <section class="section alternate" id="experiencia">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Trayectoria</p>
+          <h2>Experiencia profesional</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item featured">
+            <div class="timeline-meta"><span>2020 — Presente</span><strong>BOFASA</strong></div>
+            <div class="timeline-content">
+              <h3>Desarrollador Senior · Liderazgo Técnico Backend</h3>
+              <p>Liderazgo técnico y desarrollo de soluciones backend .NET para plataformas B2B, B2C, e-commerce y procesos transaccionales.</p>
+              <ul>
+                <li>Diseño y construcción de APIs y servicios críticos para aplicaciones móviles y plataformas web.</li>
+                <li>Optimización mediante paralelismo y programación asíncrona, logrando reducciones de hasta 60% en tiempos de ejecución.</li>
+                <li>Implementación de CI/CD con GitLab CI y GitHub Actions y modernización de servicios hacia .NET 6/8.</li>
+                <li>Centralización de logging y monitoreo mediante Serilog y Graylog.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta"><span>2019 — 2020</span><strong>CDAG</strong></div>
+            <div class="timeline-content">
+              <h3>Desarrollador Web</h3>
+              <p>Lideré el desarrollo del Sistema de Planificación Anual de Trabajo para Federaciones Deportivas de Guatemala, participando en requerimientos, diseño, desarrollo e implementación con .NET y MySQL.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta"><span>2018 — 2019</span><strong>MINTRAB</strong></div>
+            <div class="timeline-content">
+              <h3>Desarrollador Web</h3>
+              <p>Lideré el desarrollo de plataformas para procesos de información empresarial y participé en la adopción de Docker para despliegues.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta"><span>2017 — 2018</span><strong>SAPROSA</strong></div>
+            <div class="timeline-content">
+              <h3>Desarrollador Web</h3>
+              <p>Desarrollo y mantenimiento de aplicaciones web utilizando Laravel, PHP, JavaScript y Bootstrap.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Especialización</p>
+          <h2>Stack técnico</h2>
+        </div>
+
+        <div class="stack-grid">
+          <article><h3>Backend</h3><p>C# · .NET 6/8 · ASP.NET Core · REST APIs · Entity Framework Core</p></article>
+          <article><h3>Bases de datos</h3><p>SQL Server · MySQL</p></article>
+          <article><h3>DevOps & Delivery</h3><p>Docker · GitLab CI/CD · GitHub Actions · Git · IIS</p></article>
+          <article><h3>Observabilidad</h3><p>Serilog · Graylog</p></article>
+          <article><h3>Frontend</h3><p>Blazor · React</p></article>
+          <article><h3>Integraciones</h3><p>APIs REST · Servicios corporativos · Integraciones empresariales</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alternate">
+      <div class="container split-grid">
+        <div>
+          <div class="section-heading compact"><p class="eyebrow">Formación</p><h2>Educación</h2></div>
+          <div class="education-list">
+            <article><span>2019 — 2020</span><h3>Maestría en Seguridad Informática</h3><p>Universidad Mariano Gálvez de Guatemala</p></article>
+            <article><span>2013 — 2018</span><h3>Ingeniería en Sistemas de Información y Ciencias de la Computación</h3><p>Universidad Mariano Gálvez de Guatemala</p></article>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-heading compact"><p class="eyebrow">Aprendizaje continuo</p><h2>Certificaciones destacadas</h2></div>
+          <div class="education-list">
+            <article><span>2025</span><h3>Curso de DevOps con GitLab</h3><p>Platzi</p></article>
+            <article><span>2024</span><h3>Habilidades Directivas para Developers</h3><p>Platzi</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>¿Hablamos?</h2>
+          <p>Senior Backend Engineer especializado en .NET, APIs e integraciones empresariales.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:apiedrasantag@gmail.com">Email</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/alfonso-piedrasanta" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="button ghost dark" href="https://github.com/apiedrasanta" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Alfonso Piedrasanta</span>
+      <span>Senior Backend Engineer · Technical Lead</span>
     </div>
-  </body>
+  </footer>
+</body>
 </html>
